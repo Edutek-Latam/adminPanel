@@ -37,9 +37,14 @@
               "src/assets"
             ],
             "styles": [
+              "node_modules/apexcharts/dist/apexcharts.css",
               "src/styles.scss"
             ],
-            "scripts": []
+            "scripts": [
+              "node_modules/lodash/lodash.min.js",
+              "node_modules/apexcharts/dist/apexcharts.min.js",
+              "node_modules/preline/dist/preline.js"
+            ]
           },
           "configurations": {
             "production": {
