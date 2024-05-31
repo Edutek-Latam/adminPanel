@@ -6,5 +6,29 @@ import { Component } from '@angular/core';
   styles: ``
 })
 export class SidebarComponent {
+  menu  = [
+    {
+      menu:"home",
+      icon:"",
+      link:'/'
+    },
+    {
+      menu:"User",
+      icon:"",
+      link:'',
+      submenu:[
+        {
+          item:"Docentes",
+          icon:"",
+          link:''
+        },
+        {
+          item:"Alumnos",
+          icon:"",
+          link:''
+        }
+      ]
+    }
+  ]
 
 }
